@@ -1,0 +1,10 @@
+server:
+  port: 8888
+
+# open api
+springdoc:
+  packages-to-scan: com.example.swagger3knife4j.controller
+  swagger-ui:
+    enabled: true
+  api-docs:
+    enabled: true
